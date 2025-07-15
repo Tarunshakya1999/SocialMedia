@@ -70,7 +70,7 @@ export default function Nav({ searchTerm, setSearchTerm }) {
                 <input
                   className="form-control me-2 rounded-pill shadow-sm"
                   type="search"
-                  placeholder="Search products"
+                  placeholder="Search Posts"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
